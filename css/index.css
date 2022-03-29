@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+section {
+    height: 100vh;
+}
+.container {
+    margin: 0 auto;
+    width: 95%;
+    height: 100%;
+}
+.main {
+  background: url(../assets/images/background.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.about {
+  background: grey;
+}
+.price {
+  background: #f5f5f5;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+.maincontent {
+  height: 100%;
+  transition: transform 1s; /* Анимация: время */
+  will-change: transform;/* Оптимизируем браузер для анимации. Даём ему заранее понять, что будет в анимации */
+}
+.fixed-menu-shadowed {
+  background: #fff;
+}
+
+.fixed-menu_active {
+  border: #e01f3d 1px solid;
+  border-radius: 50%;
+}
