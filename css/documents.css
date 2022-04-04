@@ -16,10 +16,12 @@
     justify-content: space-around;
 }
 .documents-card_content {
+    padding-top: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 172px;  
+    width: 172px; 
+    text-align: center; 
 }
 .documents-card_content-img-paste {
     content: "";
