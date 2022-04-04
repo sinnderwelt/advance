@@ -1,16 +1,22 @@
 .about {
     background: linear-gradient(to bottom, #000 3%, #fff 97%);
 }
+.about-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
 .about h2 {
     color: #fff;
+    text-transform: uppercase;
     padding-bottom: 11px;
-    padding-top: 120px;
     text-align: center;
 }
 .about-header p {
     color: #fff;
     text-align: center;
-    padding-bottom: 62px;
+    padding-bottom: 68px;
 }
 .about_card {
     display: flex;
@@ -22,8 +28,6 @@
     max-width: 240px;
     align-items: center;
 }
-
-
 .about_card-content-img_euro {
     content: "";
     position: relative;
