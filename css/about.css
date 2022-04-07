@@ -1,15 +1,8 @@
 .about {
     background: linear-gradient(to bottom, #000 3%, #fff 97%);
 }
-.about-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-}
 .about h2 {
     color: #fff;
-    text-transform: uppercase;
     padding-bottom: 11px;
     text-align: center;
 }
@@ -28,7 +21,7 @@
     max-width: 240px;
     align-items: center;
 }
-.about_card-content-img_euro {
+.about_card-content-img {
     content: "";
     position: relative;
     display: flex;
@@ -42,20 +35,9 @@
 .about_card-content-img_euro::before {
     content: "";
     position: absolute;
-    width: 50px;
+    width: 60px;
     height: 60px;
     background: url(../assets/images/euro.png) no-repeat;
-}
-.about_card-content-img_hat {
-    content: "";
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 128px;
-    height: 128px;
-    background: #f5f5f5;
-    border-radius: 50%;
 }
 .about_card-content-img_hat::before {
     content: "";
@@ -63,17 +45,6 @@
     width: 70px;
     height: 57px;
     background: url(../assets/images/hat.png) no-repeat;
-}
-.about_card-content-img_car {
-    content: "";
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 128px;
-    height: 128px;
-    background: #f5f5f5;
-    border-radius: 50%;
 }
 .about_card-content-img_car::before {
     content: "";

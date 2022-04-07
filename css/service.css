@@ -19,7 +19,6 @@
 }
 .service-content_header h2 {
     color: #000;
-    text-transform: uppercase;
     padding-bottom: 50px;
 }
 .service-content ul {
@@ -33,15 +32,13 @@
 }
 .service-content_button {
     text-align: center;
-}
-.service-content_button-edit {
-    padding: 18px 41px;
     margin-top: 50px;
-    border: none;
+}
+.service-content_button a {
+    padding: 18px 41px;
     border-radius: 50px;
     background-color: #E00418;
-    text-transform: uppercase;
-    color: #fff;
+    color: #fff;  
 }
 .service-content_li-color-grey {
     background: #fff;

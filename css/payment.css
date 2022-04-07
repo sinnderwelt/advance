@@ -3,17 +3,10 @@
     position: relative;
     height: 100%;
 }
-.payment-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-.payment-header h2 {
+.payment h2 {
     padding-bottom: 43px;
     color: #000;
-    text-transform: uppercase;
+    text-align: center;
 }
 .payment-content {
     display: flex;
@@ -24,20 +17,26 @@
     background: #e7d7d8;
     border-radius: 50px;
 }
+.payment-content_column ul {
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+}
 .payment-card_content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 390px;
+    flex-basis: 50%;
 }
-.payment-card_content-img-hand {
+.payment-card_content-img {
     content: "";
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110px;
-    height: 110px;
+    min-width: 110px;
+    min-height: 110px;
     background: #c4c4c4;
     border-radius: 50%;
     margin-top: 30px;
@@ -46,68 +45,29 @@
 .payment-card_content-img-hand::before {
     content: "";
     position: absolute;
-    width: 70px;
-    height: 60px;
+    width: 64px;
+    height: 40px;
     background: url(../assets/images/hand.png) no-repeat;
-}
-.payment-card_content-img-part {
-    content: "";
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 110px;
-    height: 110px;
-    background: #c4c4c4;
-    border-radius: 50%;
-    margin-top: 30px;
-    margin-bottom: 8px;
 }
 .payment-card_content-img-part::before {
     content: "";
     position: absolute;
-    width: 70px;
-    height: 60px;
+    width: 67px;
+    height: 65px;
     background: url(../assets/images/part.png) no-repeat;
-}
-.payment-card_content-img-card {
-    content: "";
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 110px;
-    height: 110px;
-    background: #c4c4c4;
-    border-radius: 50%;
-    margin-top: 30px;
-    margin-bottom: 8px;
 }
 .payment-card_content-img-card::before {
     content: "";
     position: absolute;
-    width: 70px;
-    height: 60px;
+    width: 58px;
+    height: 43px;
     background: url(../assets/images/card.png) no-repeat;
-}
-.payment-card_content-img-cash {
-    content: "";
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 110px;
-    height: 110px;
-    background: #c4c4c4;
-    border-radius: 50%;
-    margin-top: 30px;
-    margin-bottom: 8px;
 }
 .payment-card_content-img-cash::before {
     content: "";
     position: absolute;
-    width: 70px;
-    height: 60px;
+    width: 63px;
+    height: 63px;
     background: url(../assets/images/cash.png) no-repeat;
 }
 .payment-card_content p {

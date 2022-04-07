@@ -1,14 +1,7 @@
-.documents-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-.documents-main h2 {
+.documents h2 {
     padding-bottom: 74px;
     color: #000;
-    text-transform: uppercase;
+    text-align: center;
 }
 .documents-card {
     display: flex;
@@ -23,7 +16,7 @@
     width: 172px; 
     text-align: center; 
 }
-.documents-card_content-img-paste {
+.documents-card_content-img {
     content: "";
     position: relative;
     display: flex;
@@ -41,34 +34,12 @@
     height: 100px;
     background: url(../assets/images/paste.png) no-repeat;
 }
-.documents-card_content-img-folder {
-    content: "";
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 167px;
-    height: 167px;
-    background: #c4c4c4;
-    border-radius: 50px;
-}
 .documents-card_content-img-folder::before {
     content: "";
     position: absolute;
     width: 90px;
     height: 100px;
     background: url(../assets/images/folder.png) no-repeat;
-}
-.documents-card_content-img-face {
-    content: "";
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 167px;
-    height: 167px;
-    background: #c4c4c4;
-    border-radius: 50px;
 }
 .documents-card_content-img-face::before {
     content: "";
@@ -77,24 +48,10 @@
     height: 100px;
     background: url(../assets/images/face.png) no-repeat;
 }
-.documents-card_content-img-rist {
-    content: "";
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 167px;
-    height: 167px;
-    background: #c4c4c4;
-    border-radius: 50px;
-}
 .documents-card_content-img-rist::before {
     content: "";
     position: absolute;
     width: 90px;
     height: 100px;
     background: url(../assets/images/rist.png) no-repeat;
-}
-.price-card_content {
-    padding-top: 30px;
 }

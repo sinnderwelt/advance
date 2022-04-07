@@ -1,7 +1,10 @@
-.main {
+.mainpart {
     background: url(../assets/images/background.png) no-repeat;
     background-position: center center;
     background-size: cover;
+}
+.mainpart-main {
+    flex-wrap: wrap;
 }
 header {
     display: flex;
@@ -37,6 +40,14 @@ header div:nth-child(3) {
     text-align: right;
     margin-top: 15px;
 }
+.header_address div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header_address-kontakt a:hover {
+    color: #E00418;
+}
 .header_address address {
     margin-top: 5px;
 }
@@ -45,15 +56,17 @@ header div:nth-child(3) {
     font-style: normal;
     font-weight: normal;
     white-space: nowrap;
+    margin-left: 6px;
 }
 .header_address p {
     color: #fff;
     font-style: normal;
 }
-.content h1 {
-    padding-top: 103px;
-    text-transform: uppercase;
-    color: #fff;
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
 }
 .content p {
     padding-top: 77px;
@@ -62,9 +75,11 @@ header div:nth-child(3) {
     padding-bottom: 77px;
 }
 .content a {
-    text-transform: uppercase;
-    color: #fff;
-    background: red;
+    background: #E00418;
     padding: 20px 40px;
     border-radius: 50px;
+}
+.content a:hover {
+    background: #fff;
+    color: #E00418;
 }
